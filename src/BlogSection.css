@@ -1,0 +1,38 @@
+.blog-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .blog-card {
+    width: 30%;
+    background-color: rgb(20, 43, 1);
+    box-shadow: 0 4px 8px rgba(8, 207, 8, 0.3); /* Light green shadow */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .blog-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .blog-card img {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  
+  .blog-content {
+    padding: 15px;
+    color: white;
+  }
+  
+  .blog-content h3 {
+    margin: 0;
+  }
+  
+  .blog-content p {
+    margin: 10px 0;
+  }
+  

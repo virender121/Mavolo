@@ -1,0 +1,55 @@
+/* Client.css */
+
+.ScrollView {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .Client {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .ClientItem {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  
+  .ClientImage {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .ClientImage:hover {
+    transform: scale(1.1);
+  }
+  
+  .ScrollButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .ScrollButtons button {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .ScrollButtons button:hover {
+    background-color: #45a049;
+  }
+  

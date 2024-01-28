@@ -1,0 +1,66 @@
+.Pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 200vh;
+  }
+  
+  .ProBox {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .Pro1,
+  .Pro2 {
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column; /* Adjust to column layout */
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the left */
+  }
+  
+  .Pro1 {
+    flex: 1;
+  }
+  
+  .Pro2 {
+    flex: 1;
+  }
+  
+  .Pro1 h1,
+  .Pro2 h1,
+  .Pro1 h4,
+  .Pro2 h4 {
+    margin: 0; /* Remove default margins */
+  }
+  
+  .Pro1 img,
+  .Pro2 img {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 15px;
+    margin-top: 15px;
+  }
+  
+  .Pro1 .MuiSvgIcon-root,
+  .Pro2 .MuiSvgIcon-root {
+    margin-top: auto; /* Move the icon to the bottom */
+    font-size: 5rem; /* Increase the icon size */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

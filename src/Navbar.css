@@ -1,0 +1,33 @@
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:whitesmoke;  /* Add a background color */
+    padding: 15px;  /* Add padding to create space around the content */
+  }
+  
+  .Nav h1, .Nav h2 {
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    color: #050505;  /* Set text color to white */
+    font-family: 'Arial', sans-serif;  /* Set font family */
+  }
+  
+  .Nav img {
+    border-radius: 50%;
+  }
+  
+  .Nav h1 {
+    margin-right: 20px;  /* Adjust the margin for spacing */
+  }
+  
+  /* Style for navigation links */
+  .Nav h2 {
+    transition: color 0.3s;  /* Add a smooth color transition */
+  }
+  
+  .Nav h2:hover {
+    color: #FFD700;  /* Change text color on hover */
+  }
+  

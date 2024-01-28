@@ -1,0 +1,47 @@
+.about-section {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+  }
+  
+  .card h2 {
+    color: #333;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  
+  .card button {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card button:hover {
+    background-color: #333;
+  }
+  
