@@ -5,7 +5,7 @@ function BlogSection() {
   return (
     <div className="blog-section">
       <div className="blog-card">
-        <img src="image1.jpg" alt="Blog Image 1" />
+        <div className=' card1'><h4>Images</h4></div>
         <div className="blog-content">
           <h3>Blog Title 1</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -21,7 +21,7 @@ function BlogSection() {
       </div>
       
       <div className="blog-card">
-        <img src="image3.jpg" alt="Blog Image 3" />
+        
         <div className="blog-content">
           <h3>Blog Title 3</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

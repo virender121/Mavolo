@@ -11,10 +11,19 @@
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
+    height: 300px;
+    position: relative;
   }
   
   .blog-card:hover {
     transform: scale(1.05);
+  }
+  .card1{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -50px;
   }
   
   .blog-card img {

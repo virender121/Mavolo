@@ -5,9 +5,19 @@
     height: 50vh;
     
   }
+  .headings {
+    background-color:  skyblue;
+   
+    position: absolute;
+    top: 0;
+    left: 20%;
+
+  }
   
   .core-value-card {
+    position: relative;
     width: 200px;
+    height: 150px;
     padding: 20px;
     text-align: center;
     background-color: #f0f0f0;

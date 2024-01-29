@@ -8,13 +8,18 @@
   
   .ProBox {
     display: flex;
+    /* flex-direction: row; */
     gap: 50px;
+    flex-flow: row;
+    justify-content: space-between;
   }
-  
-  .Pro1,
+  .Pro1{
+    width: 550px;
+  }
+   .Pro1,
   .Pro2 {
     background-color: lightgreen;
-    padding: 20px;
+    padding: 20px 0 50px ;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     animation: fadeIn 0.5s ease-in-out;
@@ -23,16 +28,45 @@
     justify-content: space-between;
     align-items: flex-start; 
 position: relative;
-  }
+color: white;
+   } 
 
+   .images{
+    /* display: flex; */
+    position: absolute;
+    top: 97rem;
+    left: 32%;
+    width: 22rem;
+    height: 33rem;
+    background-color: transparent;
+   }
+ .images2{
+  /* display: flex; */
+  position: absolute;
+  top: 95rem;
+  left: 65%;
+  width: 27rem;
+  height: 40rem;
+  background-color: transparent;
+ }
   .Cart{
 background-color: lightgray;
 display: flex;
 position: absolute;
-top: 270px;
-width: 25px;
+top: 124rem;
+width: 85px;
+height: 45px;
   }
-
+  .Cart2{
+    background-color: lightgray;
+    display: flex;
+    position: absolute;
+    top: 124rem;
+    left: 52%;
+    width: 85px;
+    height: 45px;
+      }
+    
   .Pro1 {
     flex: 1;
   }
@@ -61,7 +95,9 @@ width: 25px;
     margin-top: auto; /* Move the icon to the bottom */
     font-size: 5rem; /* Increase the icon size */
   }
-  
+  .heading{
+    color: white;
+  }
   @keyframes fadeIn {
     from {
       opacity: 0;
